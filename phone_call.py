@@ -13,6 +13,8 @@ dail_numbers = ["+9194XXXX","+91XXXXX"]
 
 twiml_inst_url = "http://static.fullstackpython.com/phone-calls-python.xml"
 
+# Your Account Sid and Auth Token from twilio.com/console
+# DANGER! This is insecure. See http://twil.io/secure
 # Provide the ("account_number","auth_token_code")
 
 client = TwilioRestClient("PASTE ACCOUNT NUMBER HERE","PASTE TOKEN HERE")
